@@ -1,0 +1,35 @@
+baseURL: https://www.gridex.cash/
+languageCode: en-us
+title: GridEx
+theme: PaperMod
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: GridEx
+    description: "A DEX based-on grid orders"
+    DateFormat: "January 2, 2006"
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+
+    assets:
+        favicon: "/favicon.svg"
+
+    homeInfoParams:
+        Title: "Support grid orders on smartBCH!"
+        Content: >
+            🌟Currently, all the DEX DApps are all based on UniSwapV2. UniSwapV3 has some cool features, such as range orders (similar to limit orders) and concentrated liquidity (for better capital efficiency). But the license of UniSwap V3 prevent people from simply cloning it.
+
+            - 🌟Grid trading can be used to simulate limit orders and provide liquidity in a concentrated range. And it is easier to understand.
+
+            - 🌟GridEx provides smart contract source code and a demo front-end to support grid trading. A DEX which combines the features of GridEx and UniSwapV2 can provide similar user experience like UniSwapV3.
+
+menu:
+    main:
+        - identifier: sources
+          name: sources
+          url: https://github.com/limitorders/limitorders
+        - identifier: audit
+          name: audit
+          url: https://github.com/limitorders/limitorders/tree/main/SecurityAuditReport
+
+            
